@@ -1,0 +1,188 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: arial;
+      text-align: justify;
+}
+
+.container{
+       background-color: white;
+       display: grid;
+       grid-template-columns: 40% 40% 20%;
+       grid-template-rows: 15vh auto 20vh;
+       grid-template-areas:"menu menu menu"
+                         "principal principal principal"
+                         "rodape rodape rodape";                
+}
+
+.menu{
+       background-color: #0056C8;
+       grid-area: menu;
+       display: flex;
+}
+
+.logo{
+       width: 6%;
+       height: 80%;
+       margin-left: 3%;
+       margin-top: 0.7%;
+}
+
+button{
+       width: 8%;
+       height: 40%;
+       margin-top: 2%;
+       background-color: white;
+       border-radius: 25px;
+}
+
+.link1, .link2, .link3, .link4{
+       color: black;
+}
+
+.link1{
+       margin-left: 8%;
+}
+
+.link2, .link3{
+       margin-left: 35%;
+}
+
+.link4{
+       margin-left: 20%;
+}
+
+.botao1{
+       margin-left: 50%;
+}
+
+.botao2{
+       margin-left: 5%;
+}
+
+.botao4{
+       margin-left: 5%;
+}
+
+.botao2-ajuste{
+       margin-left: 50%;
+}
+
+.botao3-ajuste{
+       margin-left: 5%;
+}
+
+.botao4-ajuste{
+       margin-left: 5%;
+}
+
+.principal{
+       background-color: white;
+       grid-area: principal;
+}
+
+.titulo{
+       display: flex;
+       justify-content: center;
+       margin-top: 2%;
+}
+
+.sergioimg{
+       width: 20%;
+       margin-top: 2%;
+}
+ 
+.biografia{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+.p1{
+       margin-left: 5%;
+       margin-right: 5%;
+       margin-top: 1%;
+}
+
+.raizes{
+       width: 40%;
+       margin-top: 2%;
+       margin-left: 30%;
+}
+
+.div-img, .div1, .div2, .livross, .legenda{
+       text-align: center;
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9{
+       max-width: 250px;
+       width: auto;
+       margin-top: 2%;
+}
+
+.ref{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+ul{
+       margin-left: 5%;
+       margin-right: 5%;
+       margin-top: 2%;
+       list-style: none;
+}
+
+.ref-img{
+       width: 20%;
+       margin-top: 2%;
+       margin-left: 40%;
+} 
+
+.rodape{
+       background-color: #0056C8;
+       grid-area: rodape;
+       margin-top: 2%;
+}
+
+.roda{
+       margin-top: 1%;
+       margin-left: 5%;
+       color: white;
+}
+
+.roda1, .roda2,.roda3{
+       margin-left: 5%;
+       color: white;
+}
+
+@media (max-width: 767px){
+       .logo{
+          width: 9%;
+          height: 60%;
+          margin-top: 3%;
+       }
+
+       .botao1, .botao2-ajuste{
+              margin-left: 30%;
+              margin-top: 5%;
+              width: 20%;
+       }
+       
+       .botao2, .botao3-ajuste{
+              margin-top: 5%;
+              width: 20%;
+              margin-left: 3%;
+       }
+
+       .botao3{
+              margin-top: 5%;
+              margin-left: 3%;
+              width: 20%;
+       }
+       
+       .botao4, .botao4-ajuste{
+              margin-top: 5%;
+              width: 20%;
+              margin-left: 3%;
+       }
+  }
